@@ -2,7 +2,7 @@ const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
 function hasKey(key) {
   //   write your code here
-	if (sampleObject.red==key ||sampleObject.green==key ||sampleObject.white==key ||) {
+	if (sampleObject.hasOwnProperty("key")) {
 		return true;
 	}
 	else{
@@ -11,5 +11,5 @@ function hasKey(key) {
 }
 
 // Do not change the code below
-const key = prompt("Enter Key.");
+// const key = prompt("Enter Key.");
 alert(hasKey(key));
